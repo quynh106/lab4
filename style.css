@@ -1,0 +1,215 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+:root{
+    --color-link: rgb(41, 41, 205);
+
+    --color-main:  #838383;
+}
+.main-width{
+    margin: 0 15px;
+}
+.border{
+    border: 2px solid rgb(237, 237, 242);
+}
+a {
+    color: var(--color-main);
+    text-decoration: none;
+}
+
+/* head tab --------------------------------------------------------------------------------------------------------------------*/
+.tab-head {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+/* welcom -------------------------------------------------------------------------------------------------------------------- */
+.welcome {
+    padding: 15px;
+    display: flex;
+    box-shadow: rgb(207, 207, 211) 0px 1.5px 5px inset;
+    flex-wrap: wrap;
+    background: rgb(249, 249, 249);
+}
+.welcome .text a{
+    font-weight: 600;
+    color:var(--color-link);
+   
+}
+.avatar{
+    padding-top: 10px;
+}
+
+/* week --------------------------------------------------------------------------------------------------------------------*/
+.week{
+    margin: 30px 15px 10px;
+
+}
+.week-content {
+    display: flex;
+    /* flex-wrap: wrap; */
+    margin: 10px 10px 0 20px;
+       
+}
+.item1, .item2 {
+    display: flex;
+    align-items: center;
+}
+.item1{
+    padding-bottom: 30px;
+    margin-left: 490px;
+}
+.item2{
+ 
+ margin-left: 140px;
+}
+.week a{
+    color: var(--color-link);
+    text-decoration: underline;
+    font-weight: 600;
+    display: block;
+    text-align: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+   
+}
+span{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.text-icon2 span{
+    font-size: 1rem;
+}
+.icon1 img{
+    height: 60px;
+    margin-right: 7px;
+}
+.icon2 img{
+height: 80px;
+padding-bottom: 25px;
+margin-right: 10px;
+}
+.text-icon2 img{
+    height: 30px;
+    padding-left: 40px;
+ 
+}
+.text-icon2 img:hover{
+    cursor: pointer;
+}
+.text-icon2{
+    padding-bottom: 20px;
+}
+
+/* pick-up --------------------------------------------------------------------------------------------------------------------*/
+.pick{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pick a{
+    color: var(--color-link);
+    text-decoration: underline;
+    font-weight: 600;
+}
+.pick-tab{
+   
+    padding: 0 0 10px;
+}
+.pick-tab a:nth-child(2), 
+.pick-tab a:nth-child(3){
+    margin-left: 20px;
+}
+
+.underline{
+    border: 2px solid rgb(237, 237, 242);
+    border-style: none none solid ;
+}
+.pick-card {
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    padding: 25px 0;
+   
+}
+.pick-card1, .pick-card2, .pick-card3{
+    display: flex;
+    height: 179px;
+}
+.text-style-video{
+    font-weight: 700;
+}
+.pick-card img{
+    height: 179px;
+    width: 138px;
+}
+.video-text{
+    margin-left: 20px;
+}
+
+/* base--------------------------------------------------------------------------------------------------------------------*/ 
+.based a{
+    color: var(--color-link);
+    text-decoration: underline;
+    font-weight: 600;
+    margin-left: 20px;
+}
+.based{
+    display: flex;
+    align-items: center;
+}
+
+/* courses --------------------------------------------------------------------------------------------------------------------*/  
+.courses{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+
+}
+.course1, .course2, .course3, .course4, .courses .img img{
+    width: 340px;
+}
+
+/* end--------------------------------------------------------------------------------------------------------------------*/   
+.end{
+    margin-top: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    border-style: dashed;
+}
+.close-btn{
+   counter-reset: var(--color-main);
+        position: absolute;
+        top: 10px;
+        right: 10px;
+            cursor: pointer;
+        padding: 5px 10px;
+}
+.end h3, .end p, .end img, .end button{
+text-align: center;
+
+}
+.end img{
+    display: block;
+    margin: 0 auto;
+}
+.end button{
+   display: block;
+    padding: 10px;
+    margin:0 auto 20px;
+    background-color: black;
+    color: aliceblue;
+  
+    
+}
+.end button:hover{
+background:rgb(46, 42, 42) ;
+cursor: pointer;
+}
+.end img{
+    height: 40px;
+    padding-top: 40px;
+}
